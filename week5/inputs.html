@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Using Other Types of HTML Inputs</title>
+    </head>
+    <body>
+        <h1>
+            Welcome to Fake Airlines!
+        </h1>
+        <h1>
+            Please Complete the Following Form:
+        </h1>
+
+        <form action="#">
+
+            <p><label for="firstName">First Name: <input type="text" id="first" required></label></p>
+            <p><label for="lastName">Last Name: <input type="text" id="last" required></label></p>
+            <p><label for="age">Age: <input type="number" id="age" required></label></p>
+            
+            <p>What is your gender?</p>
+            <input type="radio" id="female" name="q1">
+            <label for="question1">Female</label><br>
+            <input type="radio" id="male" name="q1">
+            <label for="question1">Male</label><br>
+            <input type="radio" id="nonbinary" name="q1">
+            <label for="question1">Non-Binary</label>
+            
+            <p>Where are you travelling to?</p>
+            <label for="destination">Available Destinations:</label>
+            <select id="destionation" name="destination">
+                <option value="newyork">New York, NY</option>
+                <option value="lasvegas">Las Vegas, NV</option>
+                <option value="hawaii">Honolulu, HI</option>
+            </select>
+            
+            <p>Do you have any dietary restrictions?</p>
+            <input type="checkbox" id="restriction1">
+            <label for="restriction1">Dairy Free</label>
+            <input type="checkbox" id="restriction2">
+            <label for="restriction2">Vegetarian</label>
+            <input type="checkbox" id="restriction3">
+            <label for="restriction3">Gluten Free</label>
+            <input type="checkbox" id="restriction4">
+            <label for="restriction4">Paleo</label>
+            
+            <p><input type="submit" value="Submit Survey">&nbsp;<input type="reset"></p>
+
+
+        </form>
+
+        <script src="inputs.js"></script>
+    </body>
+</html>
