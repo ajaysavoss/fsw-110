@@ -6,24 +6,35 @@
         <title>Forms/Modifying Elements</title>
     </head>
     <body>
-        <h1>
-            Are you a real person?
-            <button type="button" id="yes">Yes</button>
-            <button type="button" id="no">Nope</button>
-        </h1>
-        <h2>
-            Create An Account:
-        </h2>
+
         <form action="#">
 
             <p><label for="firstName">First Name: <input type="text" id="first" required></label></p>
             <p><label for="lastName">Last Name: <input type="text" id="last" required></label></p>
-            <p><label for="email">E-Mail Address: <input type="text" id="email" required></label></p>
-            <p><label for="username">Username: <input type="text" id="user" required></label></p>
-            <p><label for="password1">Password: <input type="password" id="pass1" required></label></p>
-            <p><label for="password2">Confirm Password: <input type="password" id="pass2" required></label></p>
-            
-            <p><input type="submit" value="Submit Your Information">&nbsp;<input type="reset"></p>
+            <p><label for="age">Age: <input type="number" id="age" required></label></p>
+           <label for="gender">Gender: </label>
+            Male: <input type="radio" id="male" name="origin" required>
+            Female: <input type="radio" id="female" name="origin" required>
+            <br />
+            <label for="destination">Select a destination:</label>
+            <select name="location" id="location">
+            <option value="New York, NY">New York, NY</option>
+            <option value="Paris, France">Paris, France</option>
+            <option value="Los Angeles, CA">Los Angeles, CA</option>
+            <option value="Portland, OR">Portland, OR</option>
+            </select>
+            <br />
+
+            Dietary Restrictions:
+            <br />
+        <input id="d1" type="checkbox" name="Dairy Free" value="Dairy Free">
+        <label for="dairy">Dairy Free</label><br>
+        <input id="d2" type="checkbox" name="Gluten Free" value="Gluten Free">
+        <label for="gluten">Gluten Free</label><br>
+        <input id="d3" type="checkbox" name="Kosher" value="Kosher">
+        <label for="kosher">Kosher</label>
+  <br><br>
+            <input type="submit" value="Submit Your Information" id="sub">
 
 
         </form>
