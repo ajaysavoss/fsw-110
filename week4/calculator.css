@@ -1,0 +1,29 @@
+* {
+    background-color: #FF908C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add{
+    margin: 50px 0px;
+    padding: 50px;
+    background-color: #E06965;
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+.subtract{
+    margin: 50px 0px;
+    padding: 50px;
+    background-color: #25944C;
+    font-size: 25px;
+    text-align: left;
+}
+
+.multiply{
+    margin: 50px 0px;
+    padding: 50px;
+    background-color: #65E090;
+    font-size: 25px;
+    text-align: left;
+}
