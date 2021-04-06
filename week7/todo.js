@@ -20,6 +20,7 @@ var addItem = (e) => {
     form.reset();
   }
 };
+
 button.addEventListener("click", addItem);
 
 list.addEventListener("click", function(e){
